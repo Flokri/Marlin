@@ -48,7 +48,7 @@
 //
 // TMC StallGuard DIAG pins
 //
-#define X_DIAG_PIN                         P1_29  // X-STOP
+#define X_DIAG_PIN                         P1_27  // X-STOP
 #define Y_DIAG_PIN                         P1_28  // Y-STOP
 #define Z_DIAG_PIN                         P1_27  // Z-STOP
 #define E0_DIAG_PIN                        P1_26  // E0DET
@@ -65,7 +65,7 @@
     #define X_MIN_PIN                      P1_26  // E0DET
   #endif
 #else
-  #define X_STOP_PIN                       P1_29  // X-STOP
+  #define X_STOP_PIN                       P1_27  // X-STOP
 #endif
 
 #if Y_STALL_SENSITIVITY
@@ -88,7 +88,7 @@
   #endif
 #else
   #ifndef Z_STOP_PIN
-    #define Z_STOP_PIN                     P1_27  // Z-STOP
+    #define Z_STOP_PIN                     P1_29  // Z-STOP
   #endif
 #endif
 
